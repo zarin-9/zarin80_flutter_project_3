@@ -1,6 +1,11 @@
 # zarin80_flutter_project_3
 
-A new Flutter project.
+Tasnim Akther Zarin
+
+0182420012101080
+Course code: CSE-3212
+64(B)
+
 
 ## Getting Started
 
