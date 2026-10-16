@@ -15,7 +15,7 @@ class ContainerPage extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const Text(
-            "Hello, Student! 👋",
+            "Hello Everyone",
             style: TextStyle(
               fontSize: 26,
               fontWeight: FontWeight.bold,
@@ -26,7 +26,7 @@ class ContainerPage extends StatelessWidget {
           const SizedBox(height: 8),
 
           Text(
-            "Explore Flutter widgets with style.",
+            "Exploring Flutter widgets with style.",
             style: TextStyle(
               fontSize: 15,
               color: Colors.grey.shade700,
@@ -65,23 +65,21 @@ class ContainerPage extends StatelessWidget {
             child: const Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Icon(
-                  Icons.auto_awesome,
-                  size: 38,
-                  color: Colors.white,
-                ),
                 SizedBox(height: 16),
+
                 Text(
-                  "Hello, Container!",
+                  "Container!",
                   style: TextStyle(
                     fontSize: 25,
                     fontWeight: FontWeight.bold,
                     color: Colors.white,
                   ),
                 ),
+
                 SizedBox(height: 8),
+
                 Text(
-                  "Beautiful designs start with simple widgets.",
+                  "Designing with simple widgets.",
                   style: TextStyle(
                     fontSize: 15,
                     color: Colors.white,
@@ -94,7 +92,7 @@ class ContainerPage extends StatelessWidget {
           const SizedBox(height: 24),
 
           const Text(
-            "Featured Card",
+            "Featuring cards",
             style: TextStyle(
               fontSize: 21,
               fontWeight: FontWeight.bold,
@@ -153,7 +151,9 @@ class ContainerPage extends StatelessWidget {
                             color: darkRose,
                           ),
                         ),
+
                         SizedBox(height: 6),
+
                         Text(
                           "Container • Card • Buttons",
                           style: TextStyle(
@@ -171,7 +171,7 @@ class ContainerPage extends StatelessWidget {
           const SizedBox(height: 24),
 
           const Text(
-            "Try the Buttons",
+            "Three Buttons",
             style: TextStyle(
               fontSize: 21,
               fontWeight: FontWeight.bold,

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 //import 'package:zarin80_flutter_project_3/container_page.dart';
-import 'homepage.dart'; 
+import 'container_page.dart'; 
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Creative Project',
       theme: ThemeData.light(),
       debugShowCheckedModeBanner: false,
-      home: const HomePage(),  
+      home: const ContainerPage(),  
     );
   }
 }  
